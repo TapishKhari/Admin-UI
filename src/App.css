@@ -1,38 +1,76 @@
-.App {
+.App{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.Head-App-menu{
+  margin-left: 5%;
+  display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.head-bar{
+  display: flex;
+}
+.search-txt{
+  margin-left: 0px;
+}
+.search{
+  width:80%;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.A-head{
+  width:10%;
+  
+  margin-left: 5%;
+}
+
+.B-head{
+ width:20%;
+ 
+ padding-right: 0px;
+}
+
+.C-head{
+  width: 25%;
+ 
+}
+.D-head {
+  width:10%;
+  
+}
+.E-head{
+  width:10%;
+  margin-left: 3%;;
+}
+.App-menu{
+  display: flex;
+  
+}
+
+.App-menu .A{
+  width:10%;
+ 
+}
+
+.App-menu .B{
+  width:20%;
+  
+  
+}
+
+.App-menu .C{
+  width:20%;
+  margin-left:3%;
+ 
+}
+
+.App-menu .D{
+  width:10%;
+  margin-left:5%;
+}
+
+.E{
+  width:10%;
 }
